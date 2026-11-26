@@ -1,0 +1,27 @@
+{
+  "name": "invasores-go",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "wasm": "cd go && GOOS=js GOARCH=wasm go build -o ../public/game/invasores.wasm .",
+    "test": "cd go && go test ./..."
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5",
+    "vite": "^8"
+  }
+}
