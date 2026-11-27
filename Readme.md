@@ -84,5 +84,4 @@ InvasoresGo/
 
 ## Autor y licencia
 
-Desarrollado por José Andrés Dávila L. 2026. Licencia libre con atribución al autor
-(registro Creative Commons en trámite).
+Desarrollado por José Andrés Dávila L. 2026. Licencia MIT (ver `LICENSE`): uso libre con atribución al autor.
